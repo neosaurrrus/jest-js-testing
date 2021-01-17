@@ -1,6 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
+export const add = ( a,b ) => a + b
+
+export const schoolPopulation = (teachers, students) => {
+  return `There are ${add(teachers, students)} people at the school`
+}
+
 function App() {
   return (
     <div className="App">
